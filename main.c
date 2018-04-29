@@ -2,16 +2,14 @@
 #include <openssl/ssl.h>
 #include <openssl/err.h>
 #include <openssl/bio.h>
+#include <string.h>
 
-//#define APIKEY "some-key"
 #define HOST "tntlvnzzqsz.SANDBOX.verygoodproxy.com"
 #define PORT "443"
 
 int main() {
 
-    //
-    //  Initialize the variables
-    //
+    //  Use a bio, ssl and ssl context:
     BIO* bio;
     SSL* ssl;
     SSL_CTX* ctx;
@@ -48,14 +46,21 @@ int main() {
     //
     //  The bare minimum to make a HTTP request.
     //
-    char* write_buf = "POST /post HTTP/1.1\r\n"
-                      "Host: " HOST "\r\n"
-                      //"Authorization: Basic " APIKEY "\r\n"
-                      "Content-type: application/json""\r\n"
-                      //"{\"CCN\": \"41111111111111111\"}"
-                      //"{\"CCN\": \"41111111111111111\"}"
+    char* write_buf = "POST /post HTTP/1.1\r\n" //set the HTTP 1.1 method and API endpoint
+                      "Host: " HOST "\r\n" // set the hostname
+
+                      //set some headers
+                      "Content-type: application/json\r\n"
+                      "User-Agent: awesome-client/1.2/client\r\n"
+                      "Content-Length: 27\r\n"
+                      "\r\n" // seperate headers from body with a blank line
+
+                      //send a JSON Structure
+                      "{\"CCN\": \"4111111111111111\"}\r\n"
+
+                      //Close the connection
                       "Connection: close\r\n"
-                      "\r\n";
+                      "\r\n"; //send a new line to force an update
 
     //   Attempts to write len bytes from buf to BIO
     if(BIO_write(bio, write_buf, strlen(write_buf)) <= 0)
@@ -90,7 +95,7 @@ int main() {
         buf[size] = 0;
 
         //  ->  Print out the response
-        printf("%s", buf);
+        printf("%s", buf); //TODO: do something usefull like parse the JSON
     }
 
     //  Clean up!
