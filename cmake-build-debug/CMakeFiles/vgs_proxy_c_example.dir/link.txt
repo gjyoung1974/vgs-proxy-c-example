@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/vgs_proxy_c_example.dir/main.c.o  -o vgs_proxy_c_example 
