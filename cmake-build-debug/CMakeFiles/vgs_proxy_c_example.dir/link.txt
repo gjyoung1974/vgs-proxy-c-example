@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/vgs_proxy_c_example.dir/main.c.o  -o vgs_proxy_c_example 
+/usr/bin/cc -g   -L /usr/lib/x86_64-linux-gnu/openssl-1.0.2 -lcrypto -lssl CMakeFiles/vgs_proxy_c_example.dir/main.c.o  -o vgs_proxy_c_example 

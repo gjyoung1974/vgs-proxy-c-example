@@ -3,8 +3,8 @@
 #include <openssl/err.h>
 #include <openssl/bio.h>
 
-#define APIKEY "YOUR_API_KEY"
-#define HOST "YOUR_WEB_SERVER_URI"
+#define APIKEY "some-key"
+#define HOST "tntlvnzzqsz.SANDBOX.verygoodproxy.com"
 #define PORT "443"
 
 int main() {
@@ -27,7 +27,7 @@ int main() {
     //  Creates a new SSL_CTX object as a framework to establish TLS/SSL
     //  or DTLS enabled connections
     //
-    ctx = SSL_CTX_new(SSLv23_client_method());
+    ctx = SSL_CTX_new(TLS_client_method());
 
     //
     //  -> Error check
