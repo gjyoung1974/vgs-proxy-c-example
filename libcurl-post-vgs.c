@@ -32,8 +32,9 @@ void post_with_libcurl(void)
     char *vgs_forward_proxy_password = "6e478e95-52ed-4c3b-9493-3aefa7f9137a";
 
     //what we want to post:
-    char *json_body = "{\"CCN\": \"4012882363931881\"}"; //This is the encrypted test Visa PAN from our backend database
+    char *json_body = "{\"CCN\": \"4012882363931881\"}"; //This is the FPE encrypted test Visa PAN from our backend database
     //ClearText vaulue sent to processor will be: 4012888888881881
+    // FPE or Format preserving encryption: https://en.wikipedia.org/wiki/Format-preserving_encryption
 
     //specify any reuired headers for our message
     headers = curl_slist_append(headers, "Shoesize: 11"); // we ccan specify custom headers as well
