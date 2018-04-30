@@ -6,7 +6,7 @@
  * This example demonstrates sharing sensitive data with a 3rd party processor API
  * 1. Collect the tokenized form of a Primary Account Number (PAN) from our application's backend database
  * 2. Securely share it with an upstream 3rd party processor's API
- * 3. Notice that we have not had to handle any sensitive data within our environment at all
+ * 3. Observe that we have not had to handle any sensitive data within our environment
  *
  *      The handling of sensitive data is covered by the VGS proxy on behalf by simply setting up a forward proxy
  *      VGS Proxy details are in libcurl by:
