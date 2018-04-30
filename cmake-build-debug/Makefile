@@ -123,32 +123,32 @@ vgs_proxy_c_example/fast:
 	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/build
 .PHONY : vgs_proxy_c_example/fast
 
-libcurl-post-demo.o: libcurl-post-demo.c.o
+libcurl-post-vgs.o: libcurl-post-vgs.c.o
 
-.PHONY : libcurl-post-demo.o
+.PHONY : libcurl-post-vgs.o
 
 # target to build an object file
-libcurl-post-demo.c.o:
-	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o
-.PHONY : libcurl-post-demo.c.o
+libcurl-post-vgs.c.o:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-vgs.c.o
+.PHONY : libcurl-post-vgs.c.o
 
-libcurl-post-demo.i: libcurl-post-demo.c.i
+libcurl-post-vgs.i: libcurl-post-vgs.c.i
 
-.PHONY : libcurl-post-demo.i
+.PHONY : libcurl-post-vgs.i
 
 # target to preprocess a source file
-libcurl-post-demo.c.i:
-	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.i
-.PHONY : libcurl-post-demo.c.i
+libcurl-post-vgs.c.i:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-vgs.c.i
+.PHONY : libcurl-post-vgs.c.i
 
-libcurl-post-demo.s: libcurl-post-demo.c.s
+libcurl-post-vgs.s: libcurl-post-vgs.c.s
 
-.PHONY : libcurl-post-demo.s
+.PHONY : libcurl-post-vgs.s
 
 # target to generate assembly for a file
-libcurl-post-demo.c.s:
-	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.s
-.PHONY : libcurl-post-demo.c.s
+libcurl-post-vgs.c.s:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-vgs.c.s
+.PHONY : libcurl-post-vgs.c.s
 
 main.o: main.c.o
 
@@ -177,32 +177,32 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/main.c.s
 .PHONY : main.c.s
 
-openssl-post-demo.o: openssl-post-demo.c.o
+openssl-post-vgs.o: openssl-post-vgs.c.o
 
-.PHONY : openssl-post-demo.o
+.PHONY : openssl-post-vgs.o
 
 # target to build an object file
-openssl-post-demo.c.o:
-	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o
-.PHONY : openssl-post-demo.c.o
+openssl-post-vgs.c.o:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/openssl-post-vgs.c.o
+.PHONY : openssl-post-vgs.c.o
 
-openssl-post-demo.i: openssl-post-demo.c.i
+openssl-post-vgs.i: openssl-post-vgs.c.i
 
-.PHONY : openssl-post-demo.i
+.PHONY : openssl-post-vgs.i
 
 # target to preprocess a source file
-openssl-post-demo.c.i:
-	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.i
-.PHONY : openssl-post-demo.c.i
+openssl-post-vgs.c.i:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/openssl-post-vgs.c.i
+.PHONY : openssl-post-vgs.c.i
 
-openssl-post-demo.s: openssl-post-demo.c.s
+openssl-post-vgs.s: openssl-post-vgs.c.s
 
-.PHONY : openssl-post-demo.s
+.PHONY : openssl-post-vgs.s
 
 # target to generate assembly for a file
-openssl-post-demo.c.s:
-	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.s
-.PHONY : openssl-post-demo.c.s
+openssl-post-vgs.c.s:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/openssl-post-vgs.c.s
+.PHONY : openssl-post-vgs.c.s
 
 # Help Target
 help:
@@ -213,15 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... vgs_proxy_c_example"
-	@echo "... libcurl-post-demo.o"
-	@echo "... libcurl-post-demo.i"
-	@echo "... libcurl-post-demo.s"
+	@echo "... libcurl-post-vgs.o"
+	@echo "... libcurl-post-vgs.i"
+	@echo "... libcurl-post-vgs.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... openssl-post-demo.o"
-	@echo "... openssl-post-demo.i"
-	@echo "... openssl-post-demo.s"
+	@echo "... openssl-post-vgs.o"
+	@echo "... openssl-post-vgs.i"
+	@echo "... openssl-post-vgs.s"
 .PHONY : help
 
 

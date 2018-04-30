@@ -2,7 +2,7 @@
 // Created by gyoung on 4/30/18.
 //
 
-#include "libcurl-post-demo.h"
+#include "libcurl-post-vgs.h"
 #include <stdio.h>
 #include <curl/curl.h>
 

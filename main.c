@@ -4,8 +4,8 @@
  */
 
 #include <stdio.h>
-#include "openssl-post-demo.h" //declare our OpenSSL demo client
-#include "libcurl-post-demo.h" //declare our libcurl demo client
+#include "openssl-post-vgs.h" //declare our OpenSSL demo client
+#include "libcurl-post-vgs.h" //declare our libcurl demo client
 
 int main() {
     //post_with_openssl(); //demo VGS integration via OpenSSL

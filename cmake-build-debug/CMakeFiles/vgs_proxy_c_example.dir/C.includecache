@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-demo.c
-libcurl-post-demo.h
-/home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-demo.h
+/home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-vgs.c
+libcurl-post-vgs.h
+/home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-vgs.h
 stdio.h
 -
 curl/curl.h
 -
 
-/home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-demo.h
+/home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-vgs.h
 
 /home/gyoung/CLionProjects/vgs-proxy-c-example/main.c
 stdio.h
 -
-openssl-post-demo.h
-/home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-demo.h
-libcurl-post-demo.h
-/home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-demo.h
+openssl-post-vgs.h
+/home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-vgs.h
+libcurl-post-vgs.h
+/home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-vgs.h
 
-/home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-demo.c
-openssl-post-demo.h
-/home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-demo.h
+/home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-vgs.c
+openssl-post-vgs.h
+/home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-vgs.h
 stdio.h
 -
 openssl/ssl.h
@@ -38,7 +38,7 @@ openssl/bio.h
 string.h
 -
 
-/home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-demo.h
+/home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-vgs.h
 
 /usr/include/x86_64-linux-gnu/asm/socket.h
 asm-generic/socket.h
