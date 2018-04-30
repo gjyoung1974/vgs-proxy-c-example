@@ -27,9 +27,9 @@ void post_with_libcurl(void)
     struct curl_slist *headers = NULL;
 
     //Set the properties for our Vault's foward proxy details:
-    char *vgs_foward_proxy_url = "http://tntlvnzzqsz.SANDBOX.verygoodproxy.com:8080";
-    char *vgs_foward_proxy_username = "US2dihmmMZD8BGsQj2yKgjZk";
-    char *vgs_forward_proxy_password = "6e478e95-52ed-4c3b-9493-3aefa7f9137a";
+    char *vgs_foward_proxy_url = "http://<your vault's tenant ID>.SANDBOX.verygoodproxy.com:8080";
+    char *vgs_foward_proxy_username = "<your vault's username";
+    char *vgs_forward_proxy_password = "<your vault's password>";
 
     //what we want to post:
     char *json_body = "{\"CCN\": \"4012882363931881\"}"; //This is the FPE encrypted test Visa PAN from our backend database
@@ -48,7 +48,7 @@ void post_with_libcurl(void)
         /* First set the URL that is about to receive our POST. This URL can
            just as well be a https:// URL if that is what should receive the
            data. */
-        curl_easy_setopt(curl, CURLOPT_URL, "https://httpbin.org/post"); //Third Party API to share sensitive data with
+        curl_easy_setopt(curl, CURLOPT_URL, "https://<upstream service url>/<desired enpoint>"); //Third Party API to share sensitive data with
 
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0); //TODO: fix this never blindly accept server certificates
         curl_easy_setopt(curl, CURLOPT_PROXY, vgs_foward_proxy_url);
