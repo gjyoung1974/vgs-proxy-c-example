@@ -1,7 +1,13 @@
 /*
  * 2018 gjyoung1974@gmail.com
  *
- * VGS C openssl  example
+ * VGS C libcurl  example
+ *
+ * This example demonstrates protecting sensitive data before persisting into our applications backend via API call
+ * This demo leverages OpenSSL, to demonsrate a lower-level integration
+ *
+ * We could use any library that supports higher level HTTP1.1 VERBS
+ * Here we are just writing a buffer to a socket over TLS 1.2
  */
 
 #include "openssl-post-vgs.h"
