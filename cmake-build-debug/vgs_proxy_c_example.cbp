@@ -44,11 +44,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/x86_64-linux-gnu/openssl"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
@@ -65,11 +64,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/x86_64-linux-gnu/openssl"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
@@ -80,7 +78,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-demo.c">
+			<Option target="vgs_proxy_c_example"/>
+		</Unit>
+		<Unit filename="/home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-demo.h">
+			<Option target="vgs_proxy_c_example"/>
+		</Unit>
 		<Unit filename="/home/gyoung/CLionProjects/vgs-proxy-c-example/main.c">
+			<Option target="vgs_proxy_c_example"/>
+		</Unit>
+		<Unit filename="/home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-demo.c">
+			<Option target="vgs_proxy_c_example"/>
+		</Unit>
+		<Unit filename="/home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-demo.h">
 			<Option target="vgs_proxy_c_example"/>
 		</Unit>
 		<Unit filename="/home/gyoung/CLionProjects/vgs-proxy-c-example/CMakeLists.txt">

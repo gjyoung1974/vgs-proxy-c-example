@@ -81,17 +81,69 @@ CMakeFiles/vgs_proxy_c_example.dir/main.c.o.provides: CMakeFiles/vgs_proxy_c_exa
 CMakeFiles/vgs_proxy_c_example.dir/main.c.o.provides.build: CMakeFiles/vgs_proxy_c_example.dir/main.c.o
 
 
+CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o: CMakeFiles/vgs_proxy_c_example.dir/flags.make
+CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o: ../openssl-post-demo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gyoung/CLionProjects/vgs-proxy-c-example/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o   -c /home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-demo.c
+
+CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-demo.c > CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.i
+
+CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-demo.c -o CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.s
+
+CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o.requires:
+
+.PHONY : CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o.requires
+
+CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o.provides: CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o.requires
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o.provides.build
+.PHONY : CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o.provides
+
+CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o.provides.build: CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o
+
+
+CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o: CMakeFiles/vgs_proxy_c_example.dir/flags.make
+CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o: ../libcurl-post-demo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gyoung/CLionProjects/vgs-proxy-c-example/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o   -c /home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-demo.c
+
+CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-demo.c > CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.i
+
+CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-demo.c -o CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.s
+
+CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o.requires:
+
+.PHONY : CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o.requires
+
+CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o.provides: CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o.requires
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o.provides.build
+.PHONY : CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o.provides
+
+CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o.provides.build: CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o
+
+
 # Object files for target vgs_proxy_c_example
 vgs_proxy_c_example_OBJECTS = \
-"CMakeFiles/vgs_proxy_c_example.dir/main.c.o"
+"CMakeFiles/vgs_proxy_c_example.dir/main.c.o" \
+"CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o" \
+"CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o"
 
 # External object files for target vgs_proxy_c_example
 vgs_proxy_c_example_EXTERNAL_OBJECTS =
 
 vgs_proxy_c_example: CMakeFiles/vgs_proxy_c_example.dir/main.c.o
+vgs_proxy_c_example: CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o
+vgs_proxy_c_example: CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o
 vgs_proxy_c_example: CMakeFiles/vgs_proxy_c_example.dir/build.make
 vgs_proxy_c_example: CMakeFiles/vgs_proxy_c_example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gyoung/CLionProjects/vgs-proxy-c-example/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable vgs_proxy_c_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gyoung/CLionProjects/vgs-proxy-c-example/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable vgs_proxy_c_example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vgs_proxy_c_example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +152,8 @@ CMakeFiles/vgs_proxy_c_example.dir/build: vgs_proxy_c_example
 .PHONY : CMakeFiles/vgs_proxy_c_example.dir/build
 
 CMakeFiles/vgs_proxy_c_example.dir/requires: CMakeFiles/vgs_proxy_c_example.dir/main.c.o.requires
+CMakeFiles/vgs_proxy_c_example.dir/requires: CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o.requires
+CMakeFiles/vgs_proxy_c_example.dir/requires: CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o.requires
 
 .PHONY : CMakeFiles/vgs_proxy_c_example.dir/requires
 

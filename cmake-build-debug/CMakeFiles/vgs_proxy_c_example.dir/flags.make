@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu99
 
 C_DEFINES = 
 
-C_INCLUDES = -I/usr/include/x86_64-linux-gnu/openssl 
+C_INCLUDES = -I/usr/include/x86_64-linux-gnu 
 

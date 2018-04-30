@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/gyoung/CLionProjects/vgs-proxy-c-example/libcurl-post-demo.c" "/home/gyoung/CLionProjects/vgs-proxy-c-example/cmake-build-debug/CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o"
   "/home/gyoung/CLionProjects/vgs-proxy-c-example/main.c" "/home/gyoung/CLionProjects/vgs-proxy-c-example/cmake-build-debug/CMakeFiles/vgs_proxy_c_example.dir/main.c.o"
+  "/home/gyoung/CLionProjects/vgs-proxy-c-example/openssl-post-demo.c" "/home/gyoung/CLionProjects/vgs-proxy-c-example/cmake-build-debug/CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/usr/include/x86_64-linux-gnu/openssl"
+  "/usr/include/x86_64-linux-gnu"
   )
 
 # Targets to which this target links.

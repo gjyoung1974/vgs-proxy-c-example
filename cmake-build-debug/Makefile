@@ -123,6 +123,33 @@ vgs_proxy_c_example/fast:
 	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/build
 .PHONY : vgs_proxy_c_example/fast
 
+libcurl-post-demo.o: libcurl-post-demo.c.o
+
+.PHONY : libcurl-post-demo.o
+
+# target to build an object file
+libcurl-post-demo.c.o:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.o
+.PHONY : libcurl-post-demo.c.o
+
+libcurl-post-demo.i: libcurl-post-demo.c.i
+
+.PHONY : libcurl-post-demo.i
+
+# target to preprocess a source file
+libcurl-post-demo.c.i:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.i
+.PHONY : libcurl-post-demo.c.i
+
+libcurl-post-demo.s: libcurl-post-demo.c.s
+
+.PHONY : libcurl-post-demo.s
+
+# target to generate assembly for a file
+libcurl-post-demo.c.s:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/libcurl-post-demo.c.s
+.PHONY : libcurl-post-demo.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -150,6 +177,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/main.c.s
 .PHONY : main.c.s
 
+openssl-post-demo.o: openssl-post-demo.c.o
+
+.PHONY : openssl-post-demo.o
+
+# target to build an object file
+openssl-post-demo.c.o:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.o
+.PHONY : openssl-post-demo.c.o
+
+openssl-post-demo.i: openssl-post-demo.c.i
+
+.PHONY : openssl-post-demo.i
+
+# target to preprocess a source file
+openssl-post-demo.c.i:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.i
+.PHONY : openssl-post-demo.c.i
+
+openssl-post-demo.s: openssl-post-demo.c.s
+
+.PHONY : openssl-post-demo.s
+
+# target to generate assembly for a file
+openssl-post-demo.c.s:
+	$(MAKE) -f CMakeFiles/vgs_proxy_c_example.dir/build.make CMakeFiles/vgs_proxy_c_example.dir/openssl-post-demo.c.s
+.PHONY : openssl-post-demo.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... vgs_proxy_c_example"
+	@echo "... libcurl-post-demo.o"
+	@echo "... libcurl-post-demo.i"
+	@echo "... libcurl-post-demo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... openssl-post-demo.o"
+	@echo "... openssl-post-demo.i"
+	@echo "... openssl-post-demo.s"
 .PHONY : help
 
 
