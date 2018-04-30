@@ -8,7 +8,7 @@
 #include "libcurl-post-demo.h" //declare our libcurl demo client
 
 int main() {
-    post_with_openssl(); //demo VGS integration via OpenSSL
-    //post_with_libcurl(); //demo VGS integration via libcurl
+    //post_with_openssl(); //demo VGS integration via OpenSSL
+    post_with_libcurl(); //demo VGS integration via libcurl
     return 0;
 }

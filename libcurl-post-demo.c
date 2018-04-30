@@ -10,6 +10,10 @@ void post_with_libcurl(void)
 {
     CURL *curl;
     CURLcode res;
+    struct curl_slist *headers = NULL;
+
+    headers = curl_slist_append(headers, "Shoesize: 11");
+    headers = curl_slist_append(headers, "Content-type: application/json");
 
     curl_global_init(CURL_GLOBAL_ALL);
 
@@ -21,7 +25,9 @@ void post_with_libcurl(void)
            data. */
         curl_easy_setopt(curl, CURLOPT_URL, "https://tntlvnzzqsz.SANDBOX.verygoodproxy.com/post");
         /* Now specify the POST data */
-        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "{\"CCN\": \"4111111111111111\"}\r\n");
+        curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
+        curl_easy_setopt(curl, CURLOPT_POSTFIELDSIZE, 27);
+        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "{\"CCN\": \"4111111111111111\"}");
 
         /* Perform the request, res will get the return code */
         res = curl_easy_perform(curl);
