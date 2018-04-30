@@ -1,6 +1,8 @@
-//
-// Created by gyoung on 4/30/18.
-//
+/*
+ * 2018 gjyoung1974@gmail.com
+ *
+ * VGS C openssl  example
+ */
 
 #include "openssl-post-vgs.h"
 #include <stdio.h>
