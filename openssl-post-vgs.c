@@ -11,7 +11,7 @@
 #include <openssl/bio.h>
 #include <string.h>
 
-#define HOST "tntlvnzzqsz.SANDBOX.verygoodproxy.com"
+#define HOST "<your vault's tenant ID>.<Environment-SANDBOX-LIVE>.verygoodproxy.com"//get this from the VGS Dashboard
 #define PORT "443"
 
 void post_with_openssl(void) {
@@ -63,7 +63,7 @@ void post_with_openssl(void) {
                       "\r\n" // seperate headers from body with a blank line
 
                       //send a JSON Structure
-                      "{\"CCN\": \"4111111111111111\"}\r\n"
+                      "{\"CCN\": \"4012888888881881\"}\r\n"
 
                       //Close the connection
                       "Connection: close\r\n"
