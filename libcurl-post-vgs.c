@@ -27,7 +27,7 @@ void post_with_libcurl(void)
     struct curl_slist *headers = NULL;
 
     //Set the properties for our Vault's foward proxy details:
-    char *vgs_foward_proxy_url = "http://<your vault's tenant ID>.<ENVIRONMENT-SANDBOX-LIVE>.verygoodproxy.com:8080";
+    char *vgs_foward_proxy_url = "http://tntlvnzzqsz.SANDBOX.verygoodproxy.com:8080";
     char *vgs_foward_proxy_username = "<your vault's username";
     char *vgs_forward_proxy_password = "<your vault's password>";
 
