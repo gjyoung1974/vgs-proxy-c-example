@@ -18,5 +18,6 @@ jobs:
       - run:
           name: run tests
           command: |
-           ./vgs_proxy_c_example
+	   ls -las /root/project/cmake-build-debug
+           # ./vgs_proxy_c_example
  
