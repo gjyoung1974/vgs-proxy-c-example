@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.8)
 project(vgs_proxy_c_example C)
 
 set(CMAKE_C_STANDARD 99)
