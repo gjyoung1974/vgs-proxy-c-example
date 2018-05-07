@@ -16,7 +16,7 @@ jobs:
             mkdir cmake-build-debug
             cd cmake-build-debug
             cmake ..
-	    ls -R -lah /root/
+            ls -R -lah /root/
       # run tests!
       - run:
           name: run tests
