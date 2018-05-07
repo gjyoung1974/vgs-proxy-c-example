@@ -14,9 +14,10 @@ jobs:
             mkdir cmake-build-debug
             cd cmake-build-debug
             cmake ..
+            ls -las
       # run tests!
       - run:
           name: run tests
           command: |
-		./vgs_proxy_c_example
- 
+           ./vgs_proxy_c_example
+
