@@ -1,3 +1,0 @@
-/home/gyoung/CLionProjects/vgs-proxy-c-example/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/gyoung/CLionProjects/vgs-proxy-c-example/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/gyoung/CLionProjects/vgs-proxy-c-example/cmake-build-debug/CMakeFiles/vgs_proxy_c_example.dir
