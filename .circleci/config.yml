@@ -14,8 +14,7 @@ jobs:
             apt-get install -y libssl-dev
             apt-get install -y libcurl4-openssl-dev
             mkdir cmake-build-debug
-            cd cmake-build-debug
-            cmake ..
+            cmake --build cmake-build-debug --target all -- -j 1
       # run tests!
       - run:
           name: run tests
