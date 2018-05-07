@@ -17,7 +17,7 @@
 #include <openssl/bio.h>
 #include <string.h>
 
-#define HOST "<your vault's tenant ID>.<Environment-SANDBOX-LIVE>.verygoodproxy.com"//get this from the VGS Dashboard
+#define HOST "tntlvnzzqsz.SANDBOX.verygoodproxy.com"//get this from the VGS Dashboard
 #define PORT "443"
 
 void post_with_openssl(void) {
