@@ -20,5 +20,6 @@ jobs:
       - run:
           name: run tests
           command: |
-           /root/project/cmake-build-debug/CMakeFiles/3.9.5/CompilerIdC/a.out
+            ./vgs_proxy_c_example
+            
 
