@@ -20,4 +20,5 @@ jobs:
       - run:
           name: run tests
           command: |
-            ls -R -lah /root/project/cmake-build-debug
+          /root/project/cmake-build-debug/CMakeFiles/3.9.5/CompilerIdC/a.out
+          
