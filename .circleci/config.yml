@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: enumack/buildcontainers:clang-5.0
+    steps:
+      - checkout
+      # build!
+      - run:
+          name: build
+          command: |
+            apt-get update
+            apt-get install -y git
+            mkdir cmake-build-debug
+            cd cmake-build-debug
+            cmake ..
+      # run tests!
+      - run:
+          name: run tests
+          command: |
+            ./cmake-circleci
