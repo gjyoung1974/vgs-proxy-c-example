@@ -11,10 +11,11 @@ jobs:
           command: |
             apt-get update
             apt-get install -y git
-            mkdir cmake-build-debug
+            apt-get install -y libssl-dev 
+	    apt-get install -y libcurl4-openssl-dev
+	    mkdir cmake-build-debug
             cd cmake-build-debug
             cmake ..
-            ls -R -lah / 
       # run tests!
       - run:
           name: run tests
