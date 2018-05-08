@@ -5,6 +5,8 @@ jobs:
       - image: gjyoung1974/cmake:latest
     steps:
       - checkout
+    machine:
+      image: circleci/classic:edge
       - run: docker build -t docker c/
       - run:
           name: build
