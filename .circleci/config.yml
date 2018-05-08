@@ -7,7 +7,7 @@ jobs:
       image: circleci/classic:edge
     steps:
       - checkout
-      - run: docker build -t docker src/
+      - run: docker build -t c-example docker/
       - run:
           name: build
           command: |
