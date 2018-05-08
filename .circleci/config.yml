@@ -2,20 +2,17 @@ version: 2
 jobs:
   build:
     docker:
-      - image: gjyoung1974/cmake:latest 
+      - image: enumack/buildcontainers:clang-5.0
     steps:
       - checkout
       # build!
-        - run:
-        name: build
-        command: |
-          cmake /src
-          cmake build /src
-        # run tests!
-        - run:
+      - run:
+          name: build
+          command: |
+            cmake /src
+            cmake build /src
+      # run tests!
+      - run:
           name: run tests
           command: |
             /src/vgs_proxy_c_example
-            
-
-          
