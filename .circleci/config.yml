@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: enumack/buildcontainers:clang-5.0
+      - image: gjyoung1974/cmake:latest
     steps:
       - checkout
       # build!
