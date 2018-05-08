@@ -5,7 +5,7 @@ jobs:
       - image: gjyoung1974/cmake:latest
     steps:
       - checkout
-      # build!
+      - run: docker build -t docker c/
       - run:
           name: build
           command: |
