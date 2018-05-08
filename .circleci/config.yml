@@ -7,14 +7,14 @@ jobs:
       - checkout
       # build!
       - run:
-          name: build
-	  command: |
-	         cmake /src
-	         cmake build /src
+      name: build
+      command: |
+          cmake /src
+          cmake build /src
       # run tests!
       - run:
-          name: run tests
-          command: |
-	       /src/vgs_proxy_c_example 
+         name: run tests
+         command: |
+            /src/vgs_proxy_c_example 
 
           

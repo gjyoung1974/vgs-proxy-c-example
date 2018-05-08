@@ -8,7 +8,7 @@ https://www.verygoodsecurity.com/docs/overview
 
 To run this:
 
-$ git clone https://github.com/gjyoung1974/vgs-proxy-c-example.git
+$ git clone https://github.com/gjyoung1974/vgs-proxy-c-example.git     
 $ docker build .
 
 ```
