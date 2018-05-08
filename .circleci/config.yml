@@ -14,7 +14,7 @@ jobs:
       # run tests!
       - run:
          name: run tests
-         command: |
+	 command: |
 	       /src/vgs_proxy_c_example 
 
           
