@@ -10,7 +10,7 @@ jobs:
       name: build
       command: |
           cmake /src
-	  cmake build /src
+          cmake build /src
       # run tests!
       - run:
          name: run tests
