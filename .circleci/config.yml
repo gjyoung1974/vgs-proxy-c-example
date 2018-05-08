@@ -2,22 +2,19 @@ version: 2
 jobs:
   build:
     docker:
-      - image: enumack/buildcontainers:clang-5.0
+      - image: gjyoung1974/cmake:latest 
     steps:
       - checkout
       # build!
       - run:
           name: build
-          command: |
-            apt-get update
-            apt-get install -y git
-            apt-get install -y libssl-dev
-            apt-get install -y libcurl4-openssl-dev
-            mkdir cmake-build-debug
-            cmake ./cmake-build-debug --target all -- -j 1
+	  command: |
+	    cmake /src
+	    cmake build /src
       # run tests!
       - run:
           name: run tests
           command: |
-             /root/project/cmake-build-debug/CMakeFiles/3.9.5/CompilerIdC/a.out
+            /src/vgs_proxy_c_example 
+
           
