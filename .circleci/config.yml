@@ -1,12 +1,12 @@
 version: 2
+executorType: machine
 jobs:
   build:
-    docker:
-      - image: gjyoung1974/cmake:latest
-    steps:
-      - checkout
+    working_directory: ~/vault-examples
     machine:
       image: circleci/classic:edge
+    steps:
+      - checkout
       - run: docker build -t docker c/
       - run:
           name: build
