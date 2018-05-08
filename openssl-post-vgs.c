@@ -26,12 +26,12 @@ void post_with_openssl(void) {
     BIO* bio;
     SSL* ssl;
     SSL_CTX* ctx;
-
+    const SSL_METHOD* method = TLSv1_2_method();
     //   Initialize OpenSSL
     SSL_library_init();
 
     //  Create a new SSL_CTX object as a framework to establish TLS/SSL transport
-    ctx = SSL_CTX_new(TLS_client_method());
+    ctx = SSL_CTX_new(method);
 
     //  -> Error checks
     if (ctx == NULL)
