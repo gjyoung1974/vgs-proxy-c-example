@@ -5,6 +5,8 @@ WORKDIR /src
 
 #no run test for now since there is no env vars put in
 RUN cmake /src 
-RUN cmake --build /src 
+RUN cmake --build /src
+RUN /src/vgs_proxy_c_example
 
-CMD ["/bin/bash -c", "tail -f /dev/null"]
+# do something?
+# CMD ["/bin/bash -c", "tail -f /dev/null"]
